@@ -17,6 +17,6 @@ The online shop will enable clients to
  > Create custom context processors
  > Manage customer orders
  > Configure Celery in your project with RabbitMQ as a message broker
- > Send asynchronous notifications to > customers using Celery
+ > Send asynchronous notifications to customers using Celery
  > Monitor Celery using Flower
 ```
