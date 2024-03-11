@@ -14,7 +14,12 @@ The online shop will enable clients to
  > Create a product catalog
  > Build a shopping cart using Django sessions
  > Create custom context processors
- > Manage customer orders ... in progress
- > Configure Celery in your project with RabbitMQ as a message broker... in progress
- > Send asynchronous notifications to > customers using Celery... in progress
- > Monitor Celery using Flower... in progress
+ > Manage customer orders
+ > Configure Celery in your project with RabbitMQ as a message broker
+ > Send asynchronous notifications using Celery
+ > Monitor Celery using Flower
+ > Integrate  Stripe payment gateway into  project
+ > Process credit card payments with Stripe
+ > Handle payment notifications...in progress
+ > Export orders to CSV files...in progress
+ > Create custom views for the administration site•Generate PDF invoices dynamically...in progress
