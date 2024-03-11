@@ -11,6 +11,7 @@ The online shop will enable clients to
     8. View your site in multiple languages with internationalization  
 ```
 ## Features 
+```
  > Create a product catalog
  > Build a shopping cart using Django sessions
  > Create custom context processors
@@ -18,8 +19,10 @@ The online shop will enable clients to
  > Configure Celery in your project with RabbitMQ as a message broker
  > Send asynchronous notifications using Celery
  > Monitor Celery using Flower
- > Integrate  Stripe payment gateway into  project
+ > Integrate  Stripe payment gateway into  the project
  > Process credit card payments with Stripe
  > Handle payment notifications...in progress
  > Export orders to CSV files...in progress
- > Create custom views for the administration site•Generate PDF invoices dynamically...in progress
+ > Create custom views for the administration site
+ > Generate PDF invoices dynamically...in progress
+```
