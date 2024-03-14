@@ -21,8 +21,8 @@ The online shop will enable clients to
  > Monitor Celery using Flower
  > Integrate  Stripe payment gateway into  the project
  > Process credit card payments with Stripe
- > Handle payment notifications...in progress
- > Export orders to CSV files...in progress
+ > Handle payment notifications
+ > Export orders to CSV files
  > Create custom views for the administration site
  > Generate PDF invoices dynamically...in progress
 ```

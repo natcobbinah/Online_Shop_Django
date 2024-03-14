@@ -26,6 +26,7 @@ def payment_process(request):
             'mode': 'payment',
             'success_url': success_url,
             'cancel_url': cancel_url,
+            'client_reference_id': order_id,
             'line_items': []
         }
         # add order items to the stripe checkout session
