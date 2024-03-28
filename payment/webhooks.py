@@ -3,7 +3,7 @@ from django.conf import settings
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from orders.models import Order
-from orders.tasks import payment_completed
+from .tasks import payment_completed
 
 
 @csrf_exempt
