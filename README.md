@@ -49,7 +49,10 @@ The online shop will enable clients to
 
 ![7](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/dd0f49d2-cdc2-43b8-8cfc-e256827527ff)
 
+![discounts applied](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/5ee7432b-b67a-49e0-bbe6-82f3768db9e6)
 
+![order detail admin](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/984d6cf5-c77a-4ca2-93e3-fe73b91d1966)
 
+![invoice](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/1721145b-798f-40ed-8d18-0f2a00c6a7e7)
 
 
