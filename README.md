@@ -66,4 +66,8 @@ The online shop will enable clients to
 
 ![invoice](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/1721145b-798f-40ed-8d18-0f2a00c6a7e7)
 
+With recommendation engine 
+![recommendation](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/f4bd5248-2a2f-494c-9ee6-5604b34dac06)
+
+![recommendation in cart](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/2f10d49c-40a0-4de9-a181-016a8e36788d)
 
