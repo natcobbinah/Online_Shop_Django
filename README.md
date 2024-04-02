@@ -30,8 +30,8 @@ The online shop will enable clients to
  > Applying coupons to the shopping cart
  > Applying coupons to orders
  > Creating coupons for Stripe Checkout
- > Storing products that are usually bought together...in progress
- > Building a product recommendation engine with Redis... in progress
+ > Storing products that are usually bought together
+ > Building a product recommendation engine with Redis
 ```
 ## Sample Screenshots of app
 
