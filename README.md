@@ -32,6 +32,17 @@ The online shop will enable clients to
  > Creating coupons for Stripe Checkout
  > Storing products that are usually bought together
  > Building a product recommendation engine with Redis
+
+ Adding Internationalization
+ > Managing translation files 
+ > Translating Python code
+ > Translating templates
+ > Using Rosetta to manage translations
+ > Translating URL patterns and using a language prefix in URLs
+ > Allowing users to switch language
+ > Translating models using django-parler
+ > Using translations with the ORM•Adapting views to use translations
+ > Using localized form fields of django-localflavor
 ```
 ## Sample Screenshots of app
 

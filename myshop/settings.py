@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 from environs import Env
+from django.utils.translation import gettext as _
 
 env = Env()
 env.read_env()  # read .env file, if it exists
@@ -52,6 +53,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -115,7 +117,12 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "en"
+
+LANGUAGES = [
+    ('en', 'English'),
+    ('es', 'Spanish')
+]
 
 TIME_ZONE = "UTC"
 
@@ -138,6 +145,10 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # CART
 CART_SESSION_ID = 'cart'
 
+# LOCALE PATHS
+LOCALE_PATHS = [
+    BASE_DIR / 'locale'
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
