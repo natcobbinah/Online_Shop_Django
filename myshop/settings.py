@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 from environs import Env
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 
 env = Env()
 env.read_env()  # read .env file, if it exists
@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     "orders.apps.OrdersConfig",
     "payment.apps.PaymentConfig",
     "coupons.apps.CouponsConfig",
+    # 3rd party
+    "rosetta",
 ]
 
 MIDDLEWARE = [
@@ -120,8 +122,8 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = "en"
 
 LANGUAGES = [
-    ('en', 'English'),
-    ('es', 'Spanish')
+    ('en', _('English')),
+    ('es', _('Spanish')),
 ]
 
 TIME_ZONE = "UTC"
