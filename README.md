@@ -72,3 +72,20 @@ With recommendation engine
 
 ![recommendation in cart](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/2f10d49c-40a0-4de9-a181-016a8e36788d)
 
+Localization and Internationalization
+![rosetta](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/e537eb2c-7ade-44d9-9a71-0276ac4960dc)
+
+![django-parler](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/998731c0-abc7-4566-bb12-6c5b57910dcd)
+
+![rosetta interface](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/402e541d-30b1-4fa1-9127-208f1c0edbb0)
+
+![page english](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/80638314-8959-4f7f-a1bf-a0a0639c50b5)
+
+![page spanish](https://github.com/natcobbinah/Online_Shop_Django/assets/10479361/79a3935d-6f9f-49c3-8e77-f23a10698cca)
+
+
+
+
+
+
+
