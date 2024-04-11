@@ -40,9 +40,10 @@ The online shop will enable clients to
  > Using Rosetta to manage translations
  > Translating URL patterns and using a language prefix in URLs
  > Allowing users to switch language
- > Translating models using django-parler..in pogress
- > Using translations with the ORM•Adapting views to use translations..in pogress
- > Using localized form fields of django-localflavor..in pogress
+ > Translating models using django-parler
+ > Using translations with the ORM
+ > Adapting views to use translations
+ > Using localized form fields of django-localflavor
 ```
 ## Sample Screenshots of app
 

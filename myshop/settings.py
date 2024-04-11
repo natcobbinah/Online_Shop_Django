@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     "coupons.apps.CouponsConfig",
     # 3rd party
     "rosetta",
+    "parler",
+    "localflavor",
 ]
 
 MIDDLEWARE = [
@@ -151,6 +153,18 @@ CART_SESSION_ID = 'cart'
 LOCALE_PATHS = [
     BASE_DIR / 'locale'
 ]
+
+# django-parler settings
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'en'},
+        {'code': 'es'}
+    ),
+    'default': {
+        'fallback': 'en',
+        'hide_untranslated': False,
+    }
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
